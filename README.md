@@ -1,66 +1,33 @@
-# Kalkulator Flask
+# Flask Calculator
 
-Prosta aplikacja webowa kalkulatora zbudowana przy użyciu frameworka Flask w języku Python.
+A simple web-based calculator built with **Python** and **Flask**. Designed to perform basic arithmetic operations quickly and efficiently, with a clean, minimalist interface.
 
-## Opis
-
-Jest to minimalistyczna aplikacja kalkulatora, która umożliwia wykonywanie podstawowych operacji arytmetycznych za pośrednictwem interfejsu webowego. Projekt demonstruje podstawowe możliwości frameworka Flask w zakresie obsługi żądań i renderowania szablonów.
+This project demonstrates the core capabilities of Flask for handling requests and rendering templates, while keeping things lightweight and easy to extend.
 
 ---
 
-## Funkcje
+## Features
 
--   **Dodawanie**
--   **Odejmowanie**
--   **Mnożenie**
--   **Dzielenie**
-
----
-
-## Technologie
-
--   **Backend:** Python, Flask
--   **Frontend:** HTML, CSS
+- **Addition** – simple and fast  
+- **Subtraction** – remove what you don’t need  
+- **Multiplication** – combine numbers with ease  
+- **Division** – divide and conquer  
 
 ---
 
-## Instalacja i uruchomienie
+## Technology
 
-Aby uruchomić aplikację lokalnie, postępuj zgodnie z poniższymi krokami:
+- **Backend:** Python, Flask  
+- **Frontend:** HTML, CSS  
 
-1.  **Sklonuj repozytorium:**
+---
 
-    ```bash
-    git clone [https://github.com/Flixu7/Flask-Calculator.git](https://github.com/Flixu7/Flask-Calculator.git)
-    cd Flask-Calculator
-    ```
+## Installation & Running
 
-2.  **Utwórz i aktywuj wirtualne środowisko (opcjonalnie, ale zalecane):**
+Follow these steps to run the application locally:
 
-    ```bash
-    # Na MacOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
+1. **Clone the repository:**
 
-    # Na Windows
-    python -m venv venv
-    venv\Scripts\activate
-    ```
-
-3.  **Zainstaluj zależności:**
-
-    Aplikacja korzysta jedynie z biblioteki Flask.
-
-    ```bash
-    pip install Flask
-    ```
-
-4.  **Uruchom aplikację:**
-
-    ```bash
-    python app.py
-    ```
-
-5.  **Otwórz w przeglądarce:**
-
-    Przejdź pod adres [http://127.0.0.1:5000](http://127.0.0.1:5000), aby zobaczyć działającą aplikację.
+```bash
+git clone https://github.com/Flixu7/Flask-Calculator.git
+cd Flask-Calculator
